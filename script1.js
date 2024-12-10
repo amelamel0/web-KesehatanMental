@@ -25,11 +25,11 @@ document.getElementById('depression-test-form').addEventListener('submit', funct
     }
 
     let resultMessage = '';
-    if (score <= 60) {
+    if (score <= 20) {
         resultMessage = 'Hasil tes menunjukkan bahwa Anda tidak menunjukkan gejala kesehatan mental yang signifikan. Gejala kesehatan mental ini seringkali tidak terlalu mengganggu aktivitas sehari-hari, tetapi tetap perlu diperhatikan. Anda bisa mengatasinya dengan belajar meditasi dan melakukan aktivitas fisik rutin.';
-    } else if (score <= 80) {
+    } else if (score <= 40) {
         resultMessage = 'Hasil tes menunjukkan gejala ringan kesehatan mental. Gejala kesehatan mental sedang mulai mempengaruhi kehidupan sosial dan pekerjaan seseorang. Meliputi Gangguan tidur yang lebih serius, perasaan putus asa dan merasa tidak berharga. Anda bisa mengatasinya dengan Perawatan Mandiri Komprehensif seperti mengubah pola hidup. Cobalah berbicara dengan seorang profesional untuk evaluasi lebih lanjut.';
-    } else {
+    } else (score <= 80) {
         resultMessage = 'Hasil tes menunjukkan gejala kesehatan mental yang lebih serius. Kesehatan mental berat ditandai dengan gejala yang sangat mengganggu kehidupan sehari-hari dan memerlukan perhatian medis segera seperti Pikiran untuk menyakiti diri sendiri atau bunuh diri, Halusinasi atau delusi, dan Kecemasan yang parah. Anda bisa mengatasinya dengan Terapi Psikologis. Sangat disarankan untuk mencari bantuan profesional segera.';
     }
 
