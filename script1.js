@@ -1,4 +1,4 @@
-document.getElementById('depression-test-form').addEventListener('submit', function(event) {
+document.getElementById('kesehatan-test-form').addEventListener('submit', function(event) {
     event.preventDefault();
 
     const formElements = event.target.elements;
